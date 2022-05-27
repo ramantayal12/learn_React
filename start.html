@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+        <title> Learn React </title>
+    </head>
+    <body>
+        <div id = "root"></div>
+        <!-- "In React render We are sending two Things" -->
+        <!-- 1st :- The element -->
+        <!-- 2nd :- where to put that element-->
+        <script type = "text/javascript">
+            ReactDOM.render(
+                React.createElement("h1",null, "Getting Started"),
+                document.getElementById("root")
+            );
+        </script>
+    </body>
+</html>
